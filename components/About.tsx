@@ -1,5 +1,6 @@
 import React from "react";
-import profileImage from "../public/35590070.jpg";
+import atlassianPhoto from "../public/1688815405352.png";
+// import profileImage from "../public/35590070.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -33,7 +34,7 @@ function About({}: Props) {
       >
         <Image
           className="h-full w-full object-cover"
-          src={profileImage}
+          src={atlassianPhoto}
           alt=""
         />
       </motion.div>
